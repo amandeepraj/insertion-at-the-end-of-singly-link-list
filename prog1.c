@@ -53,7 +53,7 @@ int main()
 	display();
 	printf("\nDo you want to Insert a node at the end (Y/N) :");
 	ch = getch();
-	if(ch == 'y' || 'Y')
+	if(ch == 'y' || ch == 'Y')
 	{
 		printf("\nEnter the data you want to insert at the end :");
 		scanf("%d",&d);
